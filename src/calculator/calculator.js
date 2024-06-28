@@ -1,7 +1,9 @@
 function calculate(expression) {
     try {
-        if (!result) return 'Error';
         const result = eval(expression); 
+        if (result === null || result === undefined) {
+            return 'Error';
+        }
         return result;
     } catch {
         return 'Error';
