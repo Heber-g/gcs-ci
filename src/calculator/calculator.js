@@ -32,7 +32,6 @@ function init() {
                 }
                 return;
             }
-
             calculation += buttonText;
             display.value = calculation;
         });
